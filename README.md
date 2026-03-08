@@ -1,6 +1,6 @@
-# SdC26-RoboticaMovil
+# Semana de Ciencia 2026 - Instituto de Ingeniería y Tecnología, Universidad Autónoma de Ciudad Juárez
 
-Repositorio con recursos del taller de Robótica Móvil de la Semana de Ciencia 2026 en IIT-UACJ, Ciudad Juárez, Chihuahua, México..
+Repositorio con recursos del taller de Robótica Móvil de la Semana de Ciencia 2026 en IIT-UACJ, Ciudad Juárez, Chihuahua, México.
 
 En estos archivos encontrarás las presentaciones usadas, junto con códigos de ejemplo. 
 
