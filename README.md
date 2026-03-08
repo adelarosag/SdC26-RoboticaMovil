@@ -92,8 +92,13 @@ Para este taller se utilizarán las siguientes plataformas:
 
 - Arduino (en inglés)
   - [Hardware](https://docs.arduino.cc/hardware/)
-  - [Software](https://docs.arduino.cc/software/ide/) 
+  - [Software](https://docs.arduino.cc/software/ide/)
   - [Programación](https://docs.arduino.cc/programming/)
 
 - Zumo Robot for Arduino (en inglés)
   - [Manual](https://www.pololu.com/docs/0J57/all)
+ 
+ 
+## Changelog
+- 08/03/26 : Actualización diapositivas
+- 08/03/26 : Initial commit, README and files
