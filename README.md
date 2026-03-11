@@ -100,5 +100,6 @@ Para este taller se utilizarán las siguientes plataformas:
  
  
 ## Changelog
+- 10/03/26 : Corrección códigos a detectar lineas negras (carrera_meta) y SumoCollisionDetect corregido a lineas negras.
 - 08/03/26 : Actualización diapositivas
 - 08/03/26 : Initial commit, README and files
