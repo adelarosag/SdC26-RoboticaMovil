@@ -1,7 +1,7 @@
 /*
   ZUMO - ROBOT DE CARRERA
 
-  El robot avanza recto hasta detectar la línea blanca (meta).
+  El robot avanza recto hasta detectar la línea negra (meta).
   Cuando la detecta, se detiene completamente.
 
 */
@@ -12,7 +12,7 @@
 #define LED 13
 
 // Sensibilidad del sensor (puede necesitar ajuste)
-#define QTR_THRESHOLD 1500
+#define QTR_THRESHOLD 800
 
 // Velocidad (0 a 400)
 #define FORWARD_SPEED 200
@@ -66,8 +66,8 @@ void loop()
 
   sensors.read(sensor_values);
 
-  // Detectar línea blanca con sensores extremos
-  if (sensor_values[0] < QTR_THRESHOLD || sensor_values[5] < QTR_THRESHOLD)
+  // Detectar línea negra con sensores extremos
+  if (sensor_values[0] > QTR_THRESHOLD || sensor_values[5] > QTR_THRESHOLD)
   {
     motors.setSpeeds(0,0);
     metaAlcanzada = true;
